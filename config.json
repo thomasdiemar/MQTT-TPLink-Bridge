@@ -1,0 +1,12 @@
+ {
+   "debug": true,
+   "mqtt_broker": "mqtt://192.168.0.4",
+   "head": "tplinkbridge",
+   "statushead": "status",
+   "retries": 9,
+   "timeout": 5000,
+   "plugs": [
+     { "name": "FlightSeat", "ip": "192.168.0.162", "group": "flightseat" }, 
+     { "name": "P300", "ip": "192.168.0.87", "group": "garderope" }
+   ]
+ }
