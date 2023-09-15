@@ -1,23 +1,12 @@
  {
    "debug": true,
-   "mqtt_broker": "http://mqtt.my.io",
+   "mqtt_broker": "mqtt://192.168.0.4",
    "head": "tplinkbridge",
    "statushead": "status",
    "retries": 9,
    "timeout": 5000,
    "plugs": [
-     { "name": "Xmas1", "ip": "10.1.1.1", "group": "xmas" },
-     { "name": "Xmas1", "ip": "10.1.1.1", "group": "kitchen" },
-     { "name": "Xmas2", "ip": "10.1.1.2", "group": "xmas" },
-     { "name": "Xmas3", "ip": "10.1.1.3", "group": "xmas" },
-     { "name": "OutsideXmas", "ip": "10.1.22.12", "group": "xmas" },
-     { "name": "OfficeLights", "ip": "10.1.1.9", "group": "xmas" }
-   ],
-   "lights": [
-     { "name": "OfficeLamp", "ip": "10.1.1.5", "group": "xmas" },
-     { "name": "Kitchen1", "ip": "10.1.1.10", "group": "kitchen" },
-     { "name": "Kitchen2", "ip": "10.1.1.11", "group": "kitchen" },
-     { "name": "Kitchen3", "ip": "10.1.1.12", "group": "kitchen" }
+     { "name": "FlightSeat", "ip": "192.168.0.162", "group": "flightseat" }, 
+     { "name": "P300", "ip": "192.168.0.87", "group": "garderope" }
    ]
  }
-
